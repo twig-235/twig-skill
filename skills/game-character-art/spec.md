@@ -19,6 +19,8 @@ Record face and eye color, hair shape, outfit layers and palette, signature weap
 
 Use the supplied screenshots only as character-art references. Match hand-painted 2D Korean dark-fantasy anime RPG rendering: confident fine linework, appealing angular faces, layered painterly shadows, matte engraved armor, restrained highlights, and smoky gothic atmosphere. Avoid glossy 3D rendering, plastic skin, excess bloom, and photorealism. Never bake UI text, levels, stars, frames, buttons, or selection marks into artwork.
 
+For each new character, choose a distinct `full.png` environment from several fitting possibilities based on their role, personality, palette, and story. Vary architecture, weather, time of day, viewpoint, and lighting across characters; do not reuse one fixed backdrop. The environment should support the character and preserve silhouette readability. Keep `chat.png` and `grid.png` transparent. The `icon.png` may have a subtle matching painted background.
+
 ## Grid order
 
 Each row has four chronological frames from left to right:
