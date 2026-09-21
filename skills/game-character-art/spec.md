@@ -19,9 +19,24 @@ Record face and eye color, hair shape, outfit layers and palette, signature weap
 
 Use the supplied screenshots only as character-art references. Match hand-painted 2D Korean dark-fantasy anime RPG rendering: confident fine linework, appealing angular faces, layered painterly shadows, matte engraved armor, restrained highlights, and smoky gothic atmosphere. Avoid glossy 3D rendering, plastic skin, excess bloom, and photorealism. Never bake UI text, levels, stars, frames, buttons, or selection marks into artwork.
 
-Keep the art style fixed to the supplied game references for every character and asset. Do not randomize rendering style, brushwork, anatomy language, or realism level. Compare `full.png`, `chat.png`, and `icon.png` side by side at similar face sizes before acceptance. If one is darker, more realistic, or otherwise stylistically different, regenerate it using the matching assets as explicit identity and style references.
+Keep the art style fixed to the official masters and supplied game references for every character and asset. Do not randomize rendering style, brushwork, anatomy language, or realism level. Compare `full.png`, `chat.png`, and `icon.png` side by side at similar face sizes before acceptance. If one is darker, more realistic, or otherwise stylistically different, regenerate it using the matching assets as explicit identity and style references.
 
 For each new character, choose a distinct `full.png` environment from several fitting possibilities based on their role, personality, palette, and story. Vary architecture, weather, time of day, viewpoint, and lighting across characters; do not reuse one fixed backdrop. The environment should support the character and preserve silhouette readability. Keep `chat.png` and `grid.png` transparent. The `icon.png` may have a subtle matching painted background.
+
+## Official style lock
+
+The user-approved masters are `references/official/crimson_swordsman/` and `references/official/moonlight_swordswoman/`. Their four asset types are the authoritative style and proportion references. Verify every file against `references/official-style-lock.json` before use. A changed file is not automatically an approved replacement.
+
+- Supply the corresponding official reference type alongside the target character's identity image for each generation. Use both masters when helpful. They set rendering and asset proportions, not costume, pose, camera angle, or scenery.
+- Keep style, identity, composition/pose, and environment separate in prompts. Style remains fine anime linework, simplified angular facial planes, layered matte painted shading, and restrained highlights. Identity fixes the target's face, hair, costume, palette, and weapon.
+- Only an explicit user decision can replace these masters. Male or female martial artist images and recent generations are not official masters.
+- Compare `full.png`, `chat.png`, and `icon.png` at equal face sizes, then compare the SD figures at equal standing heights. Judge SD head-to-body proportion without ponytails or accessories. Reject photorealistic drift, stretched anatomy, or a copied master background.
+
+## Natural composition for full.png only
+
+The full environmental illustration may use a front, left, right, three-quarter, or readable side view. The character need not look at the viewer. Choose a natural activity and vary weight shift, torso/head direction, gaze, camera height, distance, figure placement, architecture, terrain, weather, light, and time of day. Walking, reading, preparing equipment, resting, leaning, or kneeling are valid when the full figure remains visible. Avoid repeatedly using the same wide-legged pose, upright weapon, extended hand, or heroic low angle. Keep the face readable and leave UI-safe margins. Recent full illustrations may be compared for staging variety but never promoted into new style masters.
+
+These pose and camera freedoms do **not** apply to the other assets: `chat.png` keeps the transparent above-knee adult-proportion dialogue cutout; `icon.png` stays a square, face-readable head-and-shoulders portrait; `grid.png` keeps the approved SD proportions, stable orientation, handedness, 4 × 4 action order, cell containment, and foot baseline. Do not transfer the full illustration's experimental camera angle or background into the cutout or sprite sheet.
 
 ## Grid order
 

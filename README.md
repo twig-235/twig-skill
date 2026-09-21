@@ -12,6 +12,7 @@ Creates a consistent character asset set containing `full.png`, `chat.png`, `gri
 - [Claude adapter](skills/game-character-art/providers/claude/SKILL.md)
 - [Grok adapter](skills/game-character-art/providers/grok/SKILL.md)
 - [Prompt scaffolds](skills/game-character-art/prompts/assets.md)
+- [Official style masters and SHA-256 lock](skills/game-character-art/references/official-style-lock.json)
 
 #### Samples
 
@@ -37,4 +38,4 @@ skills/<skill>/
    └─ grok/SKILL.md
 ```
 
-Install or link the provider directory required by the AI environment together with the skill's `spec.md`, prompts, and references. Generated game assets belong in the consuming game repository and are excluded here.
+Install or link the provider directory required by the AI environment together with the skill's `spec.md`, prompts, and references. Generated game assets belong in the consuming game repository and are excluded here. The eight user-approved master images under `references/official/` are included to keep the skill's style lock portable.
