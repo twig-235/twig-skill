@@ -1,0 +1,7 @@
+# Generated assets and local state
+output/
+generated/
+.DS_Store
+Thumbs.db
+*.tmp
+__pycache__/
