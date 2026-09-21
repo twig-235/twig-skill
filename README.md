@@ -15,9 +15,12 @@ Creates a consistent character asset set containing `full.png`, `chat.png`, `gri
 
 #### Samples
 
-| Moonlight swordswoman | Crimson swordsman |
-| --- | --- |
-| [![Moonlight swordswoman](examples/game-character-art/moonlight-swordswoman.webp)](examples/game-character-art/moonlight-swordswoman.webp) | [![Crimson swordsman](examples/game-character-art/crimson-swordsman.webp)](examples/game-character-art/crimson-swordsman.webp) |
+| Asset | Moonlight swordswoman | Crimson swordsman |
+| --- | --- | --- |
+| Full | <a href="examples/game-character-art/moonlight-swordswoman.webp"><img src="examples/game-character-art/moonlight-swordswoman.webp" width="220" alt="Moonlight swordswoman Full"></a> | <a href="examples/game-character-art/crimson-swordsman.webp"><img src="examples/game-character-art/crimson-swordsman.webp" width="220" alt="Crimson swordsman Full"></a> |
+| Chat | <a href="examples/game-character-art/moonlight-swordswoman-chat.webp"><img src="examples/game-character-art/moonlight-swordswoman-chat.webp" width="220" alt="Moonlight swordswoman Chat"></a> | <a href="examples/game-character-art/crimson-swordsman-chat.webp"><img src="examples/game-character-art/crimson-swordsman-chat.webp" width="220" alt="Crimson swordsman Chat"></a> |
+| Grid | <a href="examples/game-character-art/moonlight-swordswoman-grid.webp"><img src="examples/game-character-art/moonlight-swordswoman-grid.webp" width="220" alt="Moonlight swordswoman Grid"></a> | <a href="examples/game-character-art/crimson-swordsman-grid.webp"><img src="examples/game-character-art/crimson-swordsman-grid.webp" width="220" alt="Crimson swordsman Grid"></a> |
+| Icon | <a href="examples/game-character-art/moonlight-swordswoman-icon.webp"><img src="examples/game-character-art/moonlight-swordswoman-icon.webp" width="220" alt="Moonlight swordswoman Icon"></a> | <a href="examples/game-character-art/crimson-swordsman-icon.webp"><img src="examples/game-character-art/crimson-swordsman-icon.webp" width="220" alt="Crimson swordsman Icon"></a> |
 
 ## Layout
 
