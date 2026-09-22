@@ -2,7 +2,7 @@
 
 ## Full
 
-Use the corresponding official full.png masters for rendering style, not pose or scenery. Choose a natural, varied camera angle, gaze, stance and setting. Create an original adult game character in the requested role and palette. Full body, head and feet visible, signature weapon readable, environmental background, hand-painted 2D Korean dark-fantasy anime RPG style, no UI or text.
+Style references: the two style-only face-and-material crops in `../references/`, never the official full-body masters as generation inputs. Target identity reference: [face, hair, costume, palette, weapon]. Before writing the prompt, choose and record camera height [high/eye/low], viewing direction [front/three-quarter/side/back], action or pose, figure placement [left/center/right], gaze, and environment. Compare the recent 3-5 full illustrations and change at least two of camera height, direction, and action from the closest one unless the user specifies the composition. Create the requested adult character with full body, head, hands, feet, and signature equipment visible, environmental background, hand-painted 2D Korean dark-fantasy anime RPG style, no UI or text. After generation, reject a repeated camera-height + direction + action combination and reject another centered low-angle near-frontal three-quarter hero pose even if the scenery changes.
 
 ## Chat
 

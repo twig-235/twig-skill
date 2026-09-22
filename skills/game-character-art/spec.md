@@ -13,7 +13,7 @@ Do not leave drafts, previews, README files, backups, scripts, or derived animat
 
 ## Identity anchor
 
-Record face and eye color, hair shape, outfit layers and palette, signature weapon or accessory, gems, personality, and pose. Preserve them across every asset. Change proportions only for the SD grid.
+Record face and eye color, hair shape, outfit layers and palette, signature weapon or accessory, gems, and personality. Preserve these identity anchors across every asset. Choose the full illustration pose and camera separately; do not carry them into the fixed chat, icon, or grid layouts. Change proportions only for the SD grid.
 
 ## Art direction
 
@@ -27,14 +27,14 @@ For each new character, choose a distinct `full.png` environment from several fi
 
 The user-approved masters are `references/official/crimson_swordsman/` and `references/official/moonlight_swordswoman/`. Their four asset types are the authoritative style and proportion references. Verify every file against `references/official-style-lock.json` before use. A changed file is not automatically an approved replacement.
 
-- Supply the corresponding official reference type alongside the target character's identity image for each generation. Use both masters when helpful. They set rendering and asset proportions, not costume, pose, camera angle, or scenery.
+- For `full.png` generation, supply `references/style-only-crimson_swordsman.png` and `references/style-only-moonlight_swordswoman.png` as rendering references alongside a separate target identity image. These boards contain face, armor/material, and paint-detail crops from the hash-locked chat masters. Do not supply the official full-body masters as generation inputs; inspect them only for style QA. For `chat.png`, `icon.png`, and `grid.png`, use the corresponding official asset type as reference. References set rendering and asset proportions, not costume, pose, camera angle, or scenery.
 - Keep style, identity, composition/pose, and environment separate in prompts. Style remains fine anime linework, simplified angular facial planes, layered matte painted shading, and restrained highlights. Identity fixes the target's face, hair, costume, palette, and weapon.
 - Only an explicit user decision can replace these masters. Male or female martial artist images and recent generations are not official masters.
 - Compare `full.png`, `chat.png`, and `icon.png` at equal face sizes, then compare the SD figures at equal standing heights. Judge SD head-to-body proportion without ponytails or accessories. Reject photorealistic drift, stretched anatomy, or a copied master background.
 
 ## Natural composition for full.png only
 
-The full environmental illustration may use a front, left, right, three-quarter, or readable side view. The character need not look at the viewer. Choose a natural activity and vary weight shift, torso/head direction, gaze, camera height, distance, figure placement, architecture, terrain, weather, light, and time of day. Walking, reading, preparing equipment, resting, leaning, or kneeling are valid when the full figure remains visible. Avoid repeatedly using the same wide-legged pose, upright weapon, extended hand, or heroic low angle. Keep the face readable and leave UI-safe margins. Recent full illustrations may be compared for staging variety but never promoted into new style masters.
+The full environmental illustration may use a front, left, right, three-quarter, or readable side view. The character need not look at the viewer. Before generation, record camera height, viewing direction, action/pose, figure placement, gaze, and environment. Compare the most recent 3-5 full illustrations for staging only, never as style masters; choose a combination that differs from the closest recent image in at least two of camera height, viewing direction, and action/pose. Vary weight shift, torso/head direction, distance, architecture, terrain, weather, light, and time of day. Walking, reading, preparing equipment, resting, leaning, or kneeling are valid when the full figure remains visible. Keep the face readable and leave UI-safe margins. If the user requests a specific composition, honor it. After generation, reject and regenerate an image whose camera height + viewing direction + action/pose repeat a recent image, or whose centered low-angle near-frontal three-quarter hero staging recurs. Changing only the background does not pass.
 
 These pose and camera freedoms do **not** apply to the other assets: `chat.png` keeps the transparent above-knee adult-proportion dialogue cutout; `icon.png` stays a square, face-readable head-and-shoulders portrait; `grid.png` keeps the approved SD proportions, stable orientation, handedness, 4 × 4 action order, cell containment, and foot baseline. Do not transfer the full illustration's experimental camera angle or background into the cutout or sprite sheet.
 
@@ -52,7 +52,7 @@ Keep every sprite, weapon, hair strand, and effect inside its cell. Use transpar
 ## Workflow
 
 1. Inspect the consuming game's loaders and neighboring assets.
-2. Create and approve `full.png` as the identity source.
+2. Create `full.png` using the style-only crops and the selected composition; compare its actual staging with recent full illustrations and regenerate repeats before approving it as the identity source.
 3. Derive the transparent above-knee `chat.png` while keeping adult proportions.
 4. Derive the square `icon.png` for small-card legibility.
 5. Derive the transparent four-row `grid.png` in SD proportions.

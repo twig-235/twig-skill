@@ -9,5 +9,9 @@
     "references/official/moonlight_swordswoman/chat.png": "540f004fdc0221987a3df1da5566f451a3cf808ac1b87759b57665ef0660e6f7",
     "references/official/moonlight_swordswoman/icon.png": "fc58ecd66d4db9dea6a88c919dc19c45f3c99421809ffa9fbd2c18d09ba5a38a",
     "references/official/moonlight_swordswoman/grid.png": "13f5adc1ec004c4769c0a7acf651221d0982ed444b8b89b4c0ad7978fd203a85"
+  },
+  "derivedStyleCrops": {
+    "style-only-crimson_swordsman.png": "ee283a646bafd5828c8b29c1dba1781f0d95cb3c3629112b7b50440d4b634f8c",
+    "style-only-moonlight_swordswoman.png": "79f682fb7393bdcc0a12094bec89472d8215357c8ffbff566d0021553d044f46"
   }
 }
